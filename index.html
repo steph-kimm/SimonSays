@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="main.js" defer aysch></script>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+    <div id="intro">
+        <h1>Welcome to Simon Says!</h1>
+        <h3>The game will choose the colors in a sequence and your job is to choose
+             the colors in the same sequence! Try to do well and get on the Leaderboard!
+            Enter your name below to start.</h3>
+        <form>
+            <input type="text" id="playerName" name="name" placeholder="Enter Name Here!">
+            <button id="nameBtn" onClick="setName()">Start Game!</button>
+            
+        </form>
+    </div>
+    <main>
+        <div id="leaderBoard">
+            <h2>Leader Board: </h2>
+            <ol id="boardList"> </ol>
+        </div>
+        <div id="game">
+            
+            <div id="grid">
+                <div class="box" id="yellow" style="background-color:yellow"></div>  <!-- lightgoldenrodyellow -->
+                <div class="box" id="blue" style="background-color:blue"></div>
+                <div class="box" id="red" style="background-color:red"></div>
+                <div class="box" id="green" style="background-color:green"></div>
+            </div>
+        </div>
+        <h3>Points: 0 </h3>
+    </main>
+    
+</body>
+</html>

@@ -1,0 +1,30 @@
+/* body {
+    align-items: center;
+} */
+
+main {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: space-around;
+}
+#grid{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    width: 302px;
+}
+.box{
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+#intro{
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+
+
