@@ -23,21 +23,23 @@
         </form>
     </div>
     <main>
-        <div id="leaderBoard">
+        <!-- <div id="leaderBoard">
             <h2>Leader Board: </h2>
             <ol id="boardList"> </ol>
-        </div>
+        </div> -->
         <div id="game">
             
             <div id="grid">
-                <div class="box" id="yellow" style="background-color:yellow"></div>  <!-- lightgoldenrodyellow -->
-                <div class="box" id="blue" style="background-color:blue"></div>
-                <div class="box" id="red" style="background-color:red"></div>
-                <div class="box" id="green" style="background-color:green"></div>
+                <div class="box" id="yellow" style="background-color:yellow" onClick="addYellow()"></div>  <!-- lightgoldenrodyellow -->
+                <div class="box" id="blue" style="background-color:blue" onClick="addBlue()"></div>
+                <div class="box" id="red" style="background-color:red" onClick="addRed()"></div>
+                <div class="box" id="green" style="background-color:green" onClick="addGreen()"></div>
             </div>
         </div>
-        <h3>Points: 0 </h3>
+        <h3 id="points">Points: 0 </h3>
     </main>
+
+    <div id="status"></div>
     
 </body>
 </html>
